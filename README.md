@@ -1,5 +1,7 @@
 ![](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Modex&desc=SKSE%20Menu%20Framework%20Addon&fontColor=181818&section=header&reversal=false)
-# Modex - SKSE Menu Framework Addon
+# Modex Lite - An SKSE Menu Framework Addon
+
+![GitHub last commit](https://img.shields.io/github/last-commit/patchulidev/modex-skse-menu?style=for-the-badge) ![GitHub License](https://img.shields.io/github/license/patchulidev/modex-skse-menu?style=for-the-badge) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/patchulidev/modex-skse-menu?style=for-the-badge) ![GitHub Release](https://img.shields.io/github/v/release/patchulidev/modex-skse-menu?include_prereleases&display_name=release&style=for-the-badge) ![Static Badge](https://img.shields.io/badge/nexus-page-gray?style=for-the-badge&labelColor=orange&link=https%3A%2F%2Fwww.nexusmods.com%2Fskyrimspecialedition%2Fmods%2F174813)
 
 This is a SKSE Menu Framework addon which utilizes the new Modex API released in version 2.1.0+ to expose a Settings module and some quicker interactions
 
