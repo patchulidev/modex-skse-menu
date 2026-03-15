@@ -8,6 +8,10 @@
 # folders
 build/
 vs*/
+dist/SKSE/
+dist/SKSE/*
+.claude
+.claude/*
 
 # files
 *.zip
