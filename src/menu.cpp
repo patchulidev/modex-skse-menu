@@ -49,12 +49,12 @@ namespace ModexSKSE
 		});
 
 		actorTable.SetRowCallback([](const ModexAPI::FormEntry& entry) {
-			Config::Modex->PlaceAtMe(entry.editorID);
+			Config::Modex->PlaceAtMe(entry.formID);
 			RE::PlaySound("UIMenuOK");
 		});
 
 		objectTable.SetRowCallback([](const ModexAPI::FormEntry& entry) {
-			Config::Modex->PlaceAtMe(entry.editorID);
+			Config::Modex->PlaceAtMe(entry.formID);
 			RE::PlaySound("UIMenuOK");
 		});
 

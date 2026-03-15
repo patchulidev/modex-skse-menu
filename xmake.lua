@@ -5,7 +5,7 @@ set_xmakever("2.8.2")
 includes("lib/commonlibsse-ng")
 
 -- set project
-set_project("modex-skse-menu")
+set_project("Modex-Lite")
 set_version("1.0.0")
 set_license("GPL-3.0")
 
@@ -24,7 +24,7 @@ add_rules("plugin.compile_commands.autoupdate")
 add_requires("nlohmann_json v3.12.0")
 --
 -- targets
-target("modex-skse-menu")
+target("Modex-Lite")
     -- add dependencies to target
     add_deps("commonlibsse-ng")
 
@@ -33,7 +33,7 @@ target("modex-skse-menu")
 
     -- add commonlibsse-ng plugin
     add_rules("commonlibsse-ng.plugin", {
-        name = "modex-skse-menu",
+        name = "Modex-Lite",
         author = "patchuli",
         description = "SKSE Menu interface for Modex (Mod Explorer)"
     })
